@@ -44,3 +44,22 @@ No arquivo '.env' na raiz, atualizar o 'DB_DATABASE' com o nome do banco 'seduce
 
 <hr><br>
 
+## #11 Introdução a Migrations do Laravel
+
+Criar:
+
+`php artisan make:migration create_events_table`
+
+Status:
+
+`php artisan migrate:status`
+
+* :fresh = deleta toda a tabela e cria novamente limpas (do zero).
+* :refresh = 
+* :callback = 
+* :delete = 
+
+Rodar:
+
+`php artisan migrate`
+
