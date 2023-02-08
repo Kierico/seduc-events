@@ -36,3 +36,11 @@
 
 <hr><br>
 
+## #10 Conexão ao banco de dados
+
+No arquivo '.env' na raiz, atualizar o 'DB_DATABASE' com o nome do banco 'seducevents'.
+
+`php artisan migrate`
+
+<hr><br>
+
