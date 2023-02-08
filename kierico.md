@@ -79,3 +79,15 @@ Add:
 
 > aqui eu criei na mão mesmo dados no banco de dados (XAMPP).
 
+<hr><br>
+
+## #17 Upload de imagens com Laravel
+
+Add:
+
+`php artisan make:migration add_image_to_events_table`
+
+Rodar:
+
+`php artisan migrate`
+
