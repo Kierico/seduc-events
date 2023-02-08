@@ -54,12 +54,22 @@ Status:
 
 `php artisan migrate:status`
 
-* :fresh = deleta toda a tabela e cria novamente limpas (do zero).
-* :refresh = 
-* :callback = 
-* :delete = 
+* :fresh = "CUIDADO!" Apaga toda a tabela e cria novamente (apaga os dados existentes);
+* :refresh = volta todas e roda o Migrate novamente;
+* :rollback = utilizado para voltar uma migration;
+* :reset = voltar todas.
 
 Rodar:
 
 `php artisan migrate`
+
+<hr><br>
+
+## #12 Avançando em Migrations do Laravel
+
+Add:
+
+`php artisan make:migration add_name_to_events_table`
+
+<hr><br>
 
