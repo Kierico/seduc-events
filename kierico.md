@@ -1,6 +1,6 @@
 # Seduc Events
 
-## Install
+## #01 Install
 
 [XAMPP](https://www.apachefriends.org/pt_br/index.html)
 
@@ -15,4 +15,12 @@
 `php artisan serve`
 
 >Se der erro ao rodar o server, execute 'composer update' ou 'composer install'.
+
+<hr><br>
+
+## #07 Criando Layout, add Google Fontes e Bootstrap
+
+[Google Fontes](https://fonts.google.com/)
+
+[Bootstrap](https://getbootstrap.com/)
 
