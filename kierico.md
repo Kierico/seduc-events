@@ -1,6 +1,6 @@
 # Seduc Events
 
-## #01 Install
+## #02 Install
 
 [XAMPP](https://www.apachefriends.org/pt_br/index.html)
 
