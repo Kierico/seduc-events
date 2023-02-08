@@ -73,3 +73,9 @@ Add:
 
 <hr><br>
 
+## #13 Utilizando o Eloquent do Laravel (Model)
+
+`php artisan make:model Event`
+
+> aqui eu criei na mão mesmo dados no banco de dados (XAMPP).
+
