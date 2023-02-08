@@ -6,7 +6,10 @@
     --button-bg: #9e6dc2;
     --white: #fff;
     --light-purple: #fbf6ff;
+    --green-light: #d4edda;
+    --green-light-dark: #c3e6cb;
     --green: #4fff4b;
+    --green-dark: #155724;
     --border: #f2e7fa;
     --black: #000;
 
@@ -55,6 +58,16 @@ header {
     background-color: var(--button-bg);
     border: 2px solid var(--purple-bg);
     filter: brightness(0.9);
+}
+
+.msg {
+    background-color: var(--green-light);
+    color: var(--green-dark);
+    border: 1px solid var(--green-light-dark);
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
 }
 
 /* navbar */
