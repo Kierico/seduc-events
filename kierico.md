@@ -24,3 +24,15 @@
 
 [Bootstrap](https://getbootstrap.com/)
 
+<hr><br>
+
+## #09 Criando Controllers
+
+`php artisan make:controller EventController`
+
+### install Ionicons
+
+[Ionicons](https://ionic.io/ionicons/)
+
+<hr><br>
+

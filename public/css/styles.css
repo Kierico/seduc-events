@@ -1,7 +1,3 @@
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
 :root {
     --purple-bg: #290742;
     --dark-bg: #170027;
@@ -9,8 +5,17 @@
     --white: #fff;
     --light-purple: #fbf6ff;
     --green: #4fff4b;
+
+    --font-400: 'Roboto', sans-serif;
+    --font-700: 'Poppins', sans-serif;
+}
+
+* {
+    font-family: var(--font-400);
 }
 
 h1 {
+    font-family: var(--font-700);
     color: var(--button-bg);
+    font-weight: 700;
 }

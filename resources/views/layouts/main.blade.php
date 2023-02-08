@@ -31,15 +31,14 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="navbar-brand">
-                        <h1>Seduc Events</h1>
-                        <!-- <img src="/img/" alt="Seduc Events"> -->
+                        <ion-icon name="calendar" size="large"></ion-icon>
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="/" class="nav-link">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Criar Eventos</a>
+                            <a href="/events/create" class="nav-link">Criar Eventos</a>
                         </li>
                         <li class="nav-item">
                             <a href="/" class="nav-link">Entrar</a>
@@ -55,5 +54,7 @@
         <footer>
             <p>Seduc Events &copy; 2023</p>
         </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
