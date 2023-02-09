@@ -187,6 +187,15 @@ header nav div a ion-icon {
 }
 
 /* Event page */
+#info-container .already-joined-msg {
+    margin: 15px 0;
+    color: var(--green-dark);
+    background-color: var(--green-light);
+    border: 1px solid var(--green-light-dark);
+    padding: 10px;
+    width: 50%;
+}
+
 #image-container,
 #info-container {
     margin-top: 30px;
