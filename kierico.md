@@ -105,3 +105,15 @@ Rodar:
 
 <hr><br>
 
+## #22 Autenticação no Laravel (login/registro)
+
+`composer require laravel/jetstream`
+
+`php artisan jetstream:install livewire`
+
+`npm install`
+
+`npm run dev`
+
+<hr><br>
+
