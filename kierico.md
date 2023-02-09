@@ -97,3 +97,11 @@ Rodar:
 
 `php artisan make:migration add_items_to_events_table`
 
+<hr><br>
+
+## #20 Salvando datas no banco de dados
+
+`php artisan make:migration add_date_to_events_table`
+
+<hr><br>
+
