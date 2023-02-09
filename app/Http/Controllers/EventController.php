@@ -60,6 +60,10 @@ class EventController extends Controller
             $event->image = $imageName;
 
         }
+        
+        /* pega usuário logado e add no banco */
+        $user = auth()->user();
+        $event->user_id = $user->id;
 
         $event->save();
 

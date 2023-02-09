@@ -117,3 +117,15 @@ Rodar:
 
 <hr><br>
 
+## #23 Relação One to Many
+
+`php artisan make:migration add_user_id_to_events_table`
+
+`php artisan migrate`
+
+>Se não rodar exculte no terminal `php artisan migrate:fresh`, e depois rode novamente `php artisan migrate`
+
+### Middleware('auth'), é uma forma de só quem esta logado poder acessar uma página.
+
+<hr><br>
+
