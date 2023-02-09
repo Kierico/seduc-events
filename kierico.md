@@ -135,3 +135,9 @@ Rodar:
 
 <hr><br>
 
+## #28 Relação Many to Many
+
+`php artisan make:migration create_event_user_table`
+
+`php artisan migrate`
+
