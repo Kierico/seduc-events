@@ -11,11 +11,23 @@ class EventController extends Controller
 {
     public function index() {
 
-        /* chama todos os eventos do banco */
-        $events = Event::all();
+        /* Search */
+        $search = request('search');
+
+        if($search) {
+
+            /* filtrar registros */
+            $events = Event::where([
+                ['title', 'like', '%'.$search.'%']
+            ])->get();
+
+        } else {
+            /* chama todos os eventos do banco */
+            $events = Event::all();
+        }
 
         /* passa todos eventos para a view */
-        return view('welcome', ['events' => $events]);
+        return view('welcome', ['events' => $events, 'search' => $search]);
     }
 
     public function create() {

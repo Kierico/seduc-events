@@ -111,6 +111,9 @@ header nav div a ion-icon {
 
 #search-container form {
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
     /* margin: 0 auto; */
 }
 
