@@ -129,3 +129,9 @@ Rodar:
 
 <hr><br>
 
+## #25 Criando uma Dashboard
+
+> Copiar o arquivo 'dashboard.blade.php' de 'profile' para 'events'.
+
+<hr><br>
+
