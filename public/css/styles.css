@@ -223,6 +223,10 @@ header nav div a ion-icon {
     margin: 20px 0;
 }
 
+#description-container {
+    margin-top: 10px;
+}
+
 #items-list {
     list-style: none;
     padding-left: 0;

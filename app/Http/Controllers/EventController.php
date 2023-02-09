@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 /* Acesso ao Model de Event */
 use App\Models\Event;
+use App\Models\User;
 
 class EventController extends Controller
 {
@@ -74,6 +75,9 @@ class EventController extends Controller
         
         $event = Event::findOrFail($id);
 
-        return view('events.show', ['event' => $event]);
+        /* acesso ao usuário */
+        $eventOwner = User::where('id', '=', $event->user_id)->first()->toArray();
+
+        return view('events.show', ['event' => $event, 'eventOwner' => $eventOwner]);
     }
 }
