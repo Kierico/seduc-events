@@ -91,3 +91,9 @@ Rodar:
 
 `php artisan migrate`
 
+<hr><br>
+
+## #19 Salvando JSON no banco de dados
+
+`php artisan make:migration add_items_to_events_table`
+
